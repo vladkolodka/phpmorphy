@@ -1,5 +1,5 @@
 {
-    "name": "vladkolodka/phpMorphy",
+    "name": "vladkolodka/phpmorphy",
     "description": "phpMorphy - morphological analyzer library for Russisan, English languages.",
     "type": "library",
 	"version": "0.3.7",
