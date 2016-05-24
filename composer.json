@@ -1,0 +1,29 @@
+{
+    "name": "vladkolodka/phpMorphy",
+    "description": "phpMorphy - morphological analyzer library for Russisan, English languages.",
+    "type": "library",
+	"version": "0.3.7",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vladyslav Kolodka",
+            "email": "vladkolodka@gmail.com"
+        }
+    ],
+	"require": {
+		"php": ">=5.3.0"
+	},
+    "minimum-stability": "stable",
+    "require": {
+		"php": ">=5.3.0"
+	},
+	"autoload": {
+        "classmap": [
+            "libs/phpmorphy/src/common.php",
+            "libs/phpmorphy/src/"
+        ],
+        "psr-4": {
+            "vladkolodka\\phpMorphy\\": "src"
+        }
+    }
+}
